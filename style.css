@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+header{
+
+    
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+h2{
+color: tomato;
+font-family: 'Quicksand', sans-serif;
+}
+b{
+color: whitesmoke;
+
+
+}
+
+
+
+#myVideo{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+    }
+    h1{
+    
+        color: var(--clr-white);
+    }
+
+    .content {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+      footer{
+
+        text-align: center;
+        color:floralwhite;
+        background-color:white;
+      }
+      
+      /* Style the button used to pause/play the video */
+      #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      #myBtn:hover {
+        background: #ddd;
+        color: black;
+      }
+      .table {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+        color: black;
+        font-size: 15px;
+    }
+    
+    ul#horizontal-list {
+        min-width: 696px;
+        list-style: none;
+        padding-top: 20px;
+        }
+        ul#horizontal-list li {
+            display: inline;
+        }
+    
